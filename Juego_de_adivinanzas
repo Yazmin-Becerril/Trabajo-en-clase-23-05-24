@@ -1,0 +1,9 @@
+import random
+numero_secreto = random.randint(1000, 9999)
+while True:
+    intento = int(input("Adivina el numero entre 1000 y 9999: "))
+    if intento == numero_secreto:
+        print("Has acertado, tienes 8 en el parcial")
+        break
+    else:
+        print("Error")
