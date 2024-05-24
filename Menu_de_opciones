@@ -1,0 +1,12 @@
+while True:
+    print("\n1. Saludar\n2. Despedirse\n3. Salir")
+    opcion = input("Elige una opcion: ")
+    if opcion == "1":
+        print("Hola papoy")
+    elif opcion == "2":
+        print("Adios")
+    elif opcion == "3":
+        print("Saliendo del menu")
+        break
+    else:
+        print("No autorizo, opcion no valida mi papoy")
